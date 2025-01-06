@@ -1,7 +1,2 @@
-1.登录git官网 https://git-scm.com/ 下载对应版本的git，记住下载的地址
-2.找到下载地址，把git添加到环境变量，在命令行窗口输入git --version查看是否安装成功
-3.git clone https://github.com/username/repository.git 其中username是github的用户名，repository是仓库名称，系统会在当前目录下生成仓库名称的文件夹
-4.在本地仓库下git fetch 可以获取github上的最新文件，然后git pull origin main可以更新本地仓库
-5.git add FILE 
-6.git commit -m 'COMMENT'
-7.git push origin main 将本地内容推到github
+1. git clone <repository-url> 会在当前目录下生成一个文件夹
+2. 
