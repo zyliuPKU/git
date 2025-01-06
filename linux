@@ -7,4 +7,9 @@
    rm -r filename 删除文件夹
 4. cp filename path 把文件复制到path
    cp -r filename path 复制文件夹
-5. ls 列出所有文件和文件夹
+5. mv filename path 把文件移动到path
+   mv -r filename path 移动文件夹
+   mv * path 把当前目录所有文件和文件夹移动到path
+6. ls 列出所有文件和文件夹
+7. python3 test.py 运行python文件
+   taskset -c 0,1 python3 test.py 指定CPU运行python文件
