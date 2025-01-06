@@ -1,0 +1,10 @@
+1. mkdir filename 新建文件夹
+2. cd filename 进入文件夹
+   cd .. 返回上一级
+   cd ~ 返回主目录
+   cd 返回主目录
+3. rm filename 删除文件
+   rm -r filename 删除文件夹
+4. cp filename path 把文件复制到path
+   cp -r filename path 复制文件夹
+5. ls 列出所有文件和文件夹
