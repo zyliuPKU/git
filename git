@@ -1,2 +1,6 @@
 1. git clone <repository-url> 会在当前目录下生成一个文件夹
-2. 
+2. git status 查看和版本库的状态
+3. git checkout <brunch> 切换分支
+4. git add <file> 跟踪文件
+   git commit -m 'message' 提交到仓库,并留言
+   git push
