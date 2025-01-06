@@ -1,6 +1,16 @@
+repository(repo),仓库,指代码的文件夹以及所有历史记录,可以认为就是一个保存历史的文件夹
+branch,分支,一个仓库不同开发者可以独立开发,每个开发者在自己的分支上更新
+clone,克隆,把仓库复制到本地
+merge,合并,每个开发者可以把自己开发的内容和主分支合并
+fork,派生,将一个公开的仓库复制到自己的账号下
+commit,提交,在本地仓库修改
+push,将本地代码提交至远程仓库
+pull,将远程仓库代码拉至本地
+
 1. git clone <repository-url> 会在当前目录下生成一个文件夹
 2. git status 查看和版本库的状态
 3. git checkout <brunch> 切换分支
 4. git add <file> 跟踪文件
    git commit -m 'message' 提交到仓库,并留言
    git push
+5. git pull origin <branch> 获取远程仓库的最新版本
