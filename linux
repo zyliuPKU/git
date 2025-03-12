@@ -14,5 +14,10 @@
 7. python3 test.py 运行python文件
    taskset -c 0,1 python3 test.py 指定CPU运行python文件
 8. vi file 查看文件 
-   Esc命令模式，:w 保存 :q!不保存退出 :wq 保存退出
+   Esc命令模式，
+   :w 保存 
+   :q!不保存退出 
+   :wq 保存退出 
+   :%s/x/y/g 全局x改成y
+   i插入模式，直接修改
 
