@@ -1,0 +1,7 @@
+{path_to_python}/python -m pip install numpy
+where python
+where pip
+
+conda create -n envname python=3.13
+conda activate env
+conda deactivate
